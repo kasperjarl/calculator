@@ -1,5 +1,4 @@
-# okay, now make it capable to do this: (2 * 2) - (2/4) + 8 - 3
-# The user will input as a string.
+# a really, really simple calculator 
 
 print(f"Hello! I'm Cal the calculator. \nWhat do you want to calculate?\n\n type '+' for addition\n type '-' for subtraction\n type '*' for multiplication\n type '/' for divison\n type 'quit' to quit the calculator")
 
