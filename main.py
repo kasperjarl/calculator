@@ -1,3 +1,6 @@
+# okay, now make it capable to do this: (2 * 2) - (2/4) + 8 - 3
+# The user will input as a string.
+
 print(f"Hello! I'm Cal the calculator. \nWhat do you want to calculate?\n\n type '+' for addition\n type '-' for subtraction\n type '*' for multiplication\n type '/' for divison\n type 'quit' to quit the calculator")
 
 def calculator():
@@ -6,15 +9,15 @@ def calculator():
     type = input("\npick one: ")
     if type not in allowedOps:
         return "You need to pick one of these: '+', '-', '*', '/', 'quit' "
-
-    number_one: int = float(input("\nenter the first number: "))
-
-    number_two = float(input("\nenter the second number: "))
-
     if type == 'quit':
         return "bye!"
 
-    elif type == '+':
+    number_one = float(input("\nenter the first number: "))
+
+    number_two = float(input("\nenter the second number: "))
+
+
+    if type == '+':
         return number_one + number_two
     
     elif type == '-':
