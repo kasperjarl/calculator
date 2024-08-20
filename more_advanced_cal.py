@@ -8,6 +8,6 @@ class Calculator:
         self.res = ("Answer: " + str(eval(self.math_problem)))
 
     def __repr__(self) -> str:
-        return f"self.res: {self.res}"
+        return f"{self.res}"
 
 print(Calculator())
